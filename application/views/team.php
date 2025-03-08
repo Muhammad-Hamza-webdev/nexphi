@@ -284,7 +284,8 @@
                         <div class="mil-center">
                             <h2 class="mil-up mil-mb-60">Ready to bring your <span class="mil-thin">ideas to</span>
                                 life? <br> We're <span class="mil-thin">here to help</span></h2>
-                            <div class="mil-up"><a href="contact.html" class="mil-button mil-arrow-place"><span>Contact
+                            <div class="mil-up"><a href="<?=base_url()?>contact-us"
+                                    class="mil-button mil-arrow-place"><span>Contact
                                         us</span></a></div>
                         </div>
                     </div>

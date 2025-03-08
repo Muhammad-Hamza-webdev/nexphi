@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+<!-- Favicon -->
+<link rel="icon" href="<?=base_url()?>assets/img/favicon/Nexphi black.png" type="image/png">
 <!-- bootstrap grid css -->
 <link rel="stylesheet" href="<?=base_url()?>assets/css/plugins/bootstrap-grid.css">
 <!-- font awesome css -->

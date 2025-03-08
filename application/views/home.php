@@ -274,7 +274,7 @@
                                     <p class="mil-up mil-mb-60">Together, our creative team is committed to delivering
                                         impactful work that exceeds expectations.</p>
 
-                                    <div class="mil-up"><a href="team.html"
+                                    <div class="mil-up"><a href="<?=base_url()?>our-team"
                                             class="mil-button mil-arrow-place mil-mb-60"><span>Read more</span></a>
                                     </div>
 

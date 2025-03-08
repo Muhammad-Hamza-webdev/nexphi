@@ -54,7 +54,8 @@ $route['home'] = 'welcome/Home';
 $route['contact-us'] = 'welcome/ContactUs';
 $route['our-team'] = 'welcome/OurTeam';
 
-
+// add data into form
+$route['mail-send-successfully'] = 'welcome/AddContactUsMsg';
 
 
 

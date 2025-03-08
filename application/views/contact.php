@@ -78,32 +78,33 @@
                 <!-- banner end -->
 
                 <!-- map -->
-                <!-- <div class="mil-map-frame mil-up">
+                <div class="mil-map-frame mil-up">
                     <div class="mil-map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d393.284882306618!2d73.09209704073716!3d30.68911439442787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSalma%20Khatoon%20Hospital%2C%20western%20road%2086%2F6-R%20Sahiwal!5e0!3m2!1sen!2s!4v1741430309187!5m2!1sen!2s"
                             style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                </div> -->
+                </div>
                 <!-- map end -->
 
                 <!-- contact form -->
                 <section id="contact">
                     <div class="container mil-p-120-90">
                         <h3 class="mil-center mil-up mil-mb-120">Let's <span class="mil-thin">Talk</span></h3>
-                        <form class="row align-items-center">
+                        <form class="row align-items-center" method="post"
+                            action="<?=base_url('mail-send-successfully')?>">
                             <div class="col-lg-6 mil-up">
-                                <input type="text" placeholder="What's your name *" name="userName" id="userName"
-                                    required>
+                                <input type="text" placeholder="What's your name *" name="contactUserName"
+                                    id="contactUserName" required>
                             </div>
                             <div class="col-lg-6 mil-up">
-                                <input type="email" placeholder="What's your Email *" name="userEmail" id="userEmail"
-                                    required>
+                                <input type="email" placeholder="What's your Email *" name="contactUserEmail"
+                                    id="contactUserEmail" required>
                             </div>
                             <div class="col-lg-12 mil-up">
-                                <textarea placeholder="Tell us about our project *" name="userMsg"
-                                    id="userMsg"></textarea>
+                                <textarea placeholder="Tell us about our project *" name="contactUserMsg"
+                                    id="contactUserMsg" required></textarea>
                             </div>
                             <div class="col-lg-8">
                                 <p class="mil-up mil-mb-30"><span class="mil-accent">*</span> We promise not to disclose
@@ -138,6 +139,25 @@
     ?>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    <?php if ($this->session->flashdata('mail-send-successfully')) { ?>
+    Swal.fire({
+        title: "Success!",
+        text: "Your message has been sent successfully!",
+        icon: "success",
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+        draggable: true
+    });
+    <?php } ?>
+});
+</script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('form');

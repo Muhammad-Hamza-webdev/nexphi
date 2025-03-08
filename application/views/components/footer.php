@@ -5,7 +5,7 @@
             <div class="row justify-content-between">
                 <div class="col-md-4 col-lg-4 mil-mb-60">
 
-                    <div class="mil-muted mil-logo mil-up mil-mb-30">Ashley.</div>
+                    <div class="mil-muted mil-logo mil-up mil-mb-30">Naxphi</div>
 
                     <p class="mil-light-soft mil-up mil-mb-30">Subscribe our newsletter:</p>
 
@@ -22,7 +22,7 @@
                             <nav class="mil-footer-menu mil-mb-60">
                                 <ul>
                                     <li class="mil-up mil-active">
-                                        <a href="home-1.html">Home</a>
+                                        <a href="<?=base_url()?>">Home</a>
                                     </li>
                                     <li class="mil-up">
                                         <a href="portfolio-1.html">Portfolio</a>
@@ -31,10 +31,10 @@
                                         <a href="services.html">Services</a>
                                     </li>
                                     <li class="mil-up">
-                                        <a href="contact.html">Contact</a>
+                                        <a href="<?=base_url()?>contact-us">Contact</a>
                                     </li>
                                     <li class="mil-up">
-                                        <a href="blog.html">Blog</a>
+                                        <a href="<?=base_url()?>our-team">Team</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -61,14 +61,14 @@
 
                         <div class="col-md-6 col-lg-5 mil-mb-60">
 
-                            <h6 class="mil-muted mil-up mil-mb-30">Canada</h6>
+                            <h6 class="mil-muted mil-up mil-mb-30">Sahiwal</h6>
 
                             <p class="mil-light-soft mil-up">71 South Los Carneros Road, California
                                 <span class="mil-no-wrap">+51 174 705 812</span>
                             </p>
 
                         </div>
-                        <div class="col-md-6 col-lg-5 mil-mb-60">
+                        <!-- <div class="col-md-6 col-lg-5 mil-mb-60">
 
                             <h6 class="mil-muted mil-up mil-mb-30">Germany</h6>
 
@@ -76,7 +76,7 @@
                                 <span class="mil-no-wrap">+31 174 705 811</span>
                             </p>
 
-                        </div>
+                        </div> -->
                     </div>
 
                 </div>
@@ -95,7 +95,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <p class="mil-light-soft mil-up">© Copyright 2023 - Mil. All Rights Reserved.
+                        <p class="mil-light-soft mil-up">© Copyright 2025 - Nexphi. All Rights Reserved.
                         </p>
                     </div>
 

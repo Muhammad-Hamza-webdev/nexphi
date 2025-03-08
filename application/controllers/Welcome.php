@@ -31,6 +31,19 @@ class Welcome extends CI_Controller {
 	public function ContactUs(){
 		$this->load->view('contact');
 	}
+	public function AddContactUsMsg(){
+		$addData = array(
+			'contactUserName' => $this->input->post('contactUserName'),
+			'contactUserEmail' => $this->input->post('contactUserEmail'),
+			'contactUserMsg' => $this->input->post('contactUserMsg'),
+		);
+		$this->generic->InsertData('contactusform' , $addData);
+		$this->session->set_flashdata('mail-send-successfully', '1');
+		redirect(base_url('contact-us'));
+	}
+
+
+
 	public function OurTeam(){
 		$this->load->view('team');
 	}
