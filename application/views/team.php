@@ -88,7 +88,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/1.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/1.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Anna Oldman</a></h5>
@@ -111,7 +111,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/3.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/3.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Oscar Freeman</a></h5>
@@ -134,7 +134,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/2.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/2.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Emma Newman</a></h5>
@@ -157,7 +157,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/4.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/4.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Lisa Trueman</a></h5>
@@ -180,7 +180,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/5.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/5.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Tom Oldman</a></h5>
@@ -203,7 +203,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/6.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/6.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Corey Trueman</a></h5>
@@ -226,7 +226,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/7.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/7.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Justin Newman</a></h5>
@@ -249,7 +249,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-3">
 
                                 <div class="mil-team-card mil-up mil-mb-30">
-                                    <img src="img/faces/8.jpg" alt="Team member">
+                                    <img src="<?=base_url()?>assets/img/faces/8.jpg" alt="Team member">
                                     <div class="mil-description">
                                         <div class="mil-secrc-text">
                                             <h5 class="mil-muted mil-mb-5"><a>Spunkie</a></h5>

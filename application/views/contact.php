@@ -78,14 +78,14 @@
                 <!-- banner end -->
 
                 <!-- map -->
-                <div class="mil-map-frame mil-up">
+                <!-- <div class="mil-map-frame mil-up">
                     <div class="mil-map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d393.284882306618!2d73.09209704073716!3d30.68911439442787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSalma%20Khatoon%20Hospital%2C%20western%20road%2086%2F6-R%20Sahiwal!5e0!3m2!1sen!2s!4v1741430309187!5m2!1sen!2s"
                             style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                </div>
+                </div> -->
                 <!-- map end -->
 
                 <!-- contact form -->
